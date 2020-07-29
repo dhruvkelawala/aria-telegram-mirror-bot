@@ -3,13 +3,13 @@ import constants = require('../.constants');
 const TYPE_METADATA = 'Metadata';
 
 interface FilePath {
-  path: string,
+  path: string;
   /**
    * The path extracted from the files array returned by aria2c.
    * It is present even for metadata, unlike 'path'
    */
-  inputPath: string,
-  downloadUri: string
+  inputPath: string;
+  downloadUri: string;
 }
 
 /**
